@@ -1,0 +1,15 @@
+
+.box{
+    background: blue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    position: absolute;
+    left: 42%;
+    top:30%;
+}
+.box.circle{
+    border-radius: 0;
+    background: yellow;
+}
